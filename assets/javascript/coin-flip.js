@@ -6,4 +6,12 @@
     //outputs the string to the browsers console
     console.log("hello from coin-flip.js");
 
+    if (Math.random()>0.7){
+      console.log ('heads')
+    }
+    else {
+        console.log ('tails')
+
+    }
+
 })();
